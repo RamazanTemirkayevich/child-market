@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		".div {\n    margin: 0 auto;\n    background: red;\n    width: 50px;\n    height: 50px;\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,GAAG;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf"
+}

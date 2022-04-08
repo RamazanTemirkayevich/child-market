@@ -1,0 +1,224 @@
+.footer {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+
+    &__client {
+        &-title {
+            font-weight: 400;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        @media (min-width: 768px) {
+            &-title {
+                font-weight: 300;
+                font-size: 14px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            &-title {
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+
+        &-menu {
+            display: flex;
+            flex-direction: column;
+            margin-top: 16px;
+            &>a {
+                text-decoration: none;
+            }
+
+            @media (min-width: 768px) {
+                &>a {
+                    font-weight: 300;
+                    font-size: 12px;
+                }
+            }
+
+            @media (min-width: 1024px) {
+                &>a {
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    &__about {
+        &-title {
+            font-weight: 400;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        @media (min-width: 768px) {
+            &-title {
+                font-weight: 300;
+                font-size: 14px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            &-title {
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+
+        &-menu {
+            display: flex;
+            flex-direction: column;
+            margin-top: 16px;
+            &>a {
+                text-decoration: none;
+            }
+
+            @media (min-width: 768px) {
+                &>a {
+                    font-weight: 300;
+                    font-size: 12px;
+                }
+            }
+
+            @media (min-width: 1024px) {
+                &>a {
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    &__form {
+        &-title {
+            font-weight: 400;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        @media (min-width: 768px) {
+            &-title {
+                font-weight: 300;
+                font-size: 14px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            &-title {
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+
+        &-item {
+            margin-top: 20px;
+
+            &__input {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #C4C4C4;
+                background-color: transparent;
+
+                &>div {
+                    width: 100%;
+                    &>input {
+                        visibility: unset;
+                        padding: 10px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        border: none;
+                        width: 100%;
+                        outline: none;
+                    }
+                }
+
+                &>svg {
+                    padding: 16px;
+                }
+            }
+
+            &__btn {
+                float: right;
+                margin-top: 35px;
+                width: 150px;
+                height: 36px;
+                background: #FFFFFF;
+                border: 1px solid #333333;
+                box-sizing: border-box;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) {
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 186px;
+        width: 295px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+
+        &__client {
+            &-title {
+                font-size: 14px;
+            }
+
+            &-menu {
+                &>a {
+                    font-size: 12px;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+
+        &__about {
+            margin-right: 70px;
+
+            &-title {
+                font-size: 14px;
+            }
+
+            &-menu {
+                &>a {
+                    font-size: 12px;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+
+        &__form {
+            margin-top: 58px;
+
+            &-title {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .footer {
+        width: 100%;
+        flex-wrap: unset;
+        padding-bottom: 0;
+
+        &__form {
+            margin-top: 0;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        margin-top: 130px;
+        width: 850px;
+    }
+}
