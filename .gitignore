@@ -2,7 +2,7 @@
 
 /build
 
-/scss
+src/scss/
 
 .DS_Store
 .env.local

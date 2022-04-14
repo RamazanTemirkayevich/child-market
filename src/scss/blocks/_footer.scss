@@ -126,9 +126,9 @@
                 border-bottom: 1px solid #C4C4C4;
                 background-color: transparent;
 
-                &>div {
+                &-form {
                     width: 100%;
-                    &>input {
+                    &__field {
                         visibility: unset;
                         padding: 10px;
                         font-weight: 400;
@@ -136,9 +136,12 @@
                         border: none;
                         width: 100%;
                         outline: none;
+                        &.clear {
+                            display: none;
+                        }
                     }
                 }
-
+                
                 &>svg {
                     padding: 16px;
                 }
